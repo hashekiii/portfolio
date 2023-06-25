@@ -5,8 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Samuel Ku</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png " alt="personal logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Virtual Assistant | Discord Moderator | Community Manager</p>
+                <h1>Hi, My name is <span>Mark</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- -----about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="picture of user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi inventore molestias molestiae dolores nulla sed! Fuga minus, voluptates debitis aliquam assumenda in. Sequi alias qui reiciendis nesciunt architecto totam, repudiandae suscipit fugit expedita cupiditate, amet esse enim nam. Vel, fugiat cum? Blanditiis eveniet, asperiores error consequatur laboriosam quos repellendus vel.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>HTML/CSS</span><br>Designing Basic Web Design</li>
+                            <li><span>FIGMA</span><br>Prototyping tools</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2024</span><br>Saint Louis University</li>
+                            <li><span>2012-2018</span><br>University of Baguio</li>
+                            <li><span>2012</span><br>Northridge Academy Inc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-2022</span><br>METAT8 Esports</li>
+                            <li><span>2019-2020</span><br>Keyspoke</li>
+                            <li><span>2018</span><br>Sitel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----Services----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Virtual Assistance</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Discord Moderation</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Community Management</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
     
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+        
+    }
+
+</script>
+
+
 </body>
 </html>
+
+
+<!-- ----reference: https://www.youtube.com/watch?v=0YFrGy_mzjY---- -->
