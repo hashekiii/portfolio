@@ -18,6 +18,8 @@ body {
     background-image: url(images/bg.png);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -71,7 +73,7 @@ nav ul li a:hover::after{
 
 .header-text h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .header-text h1 span{
@@ -93,7 +95,7 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 100%;
-    border-radius: 35px;
+    border-radius: 10px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -326,14 +328,14 @@ nav .fas{
 /* -------------css for small screens--------- */
 @media only screen and (max-width: 600px) {
     #header {
-      background-image: url(images/phone-background.png);
+      background-image: url(images/phone-background2.png);
     }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     nav .fas{
         display: block;
