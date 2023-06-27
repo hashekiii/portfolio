@@ -47,7 +47,7 @@ nav ul li {
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.67vh;
     position: relative;
 }
 
@@ -339,7 +339,7 @@ nav .fas{
     }
     nav .fas{
         display: block;
-        font-size: 25px;
+        font-size: 30px;
     }
     nav ul{
         background: #ff004f;

@@ -1,199 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Samuel Ku</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/62dfa86c8b.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/62dfa86c8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="script.js"></script> -->
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo2.png " alt="personal logo" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Virtual Assistant | Discord Moderator</p>
-                <h1>Hi, My name is <span>Mark</span></h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/logo2.png " alt="personal logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Virtual Assistant | Discord Moderator</p>
+          <h1>Hi, My name is <span>Mark</span></h1>
         </div>
+      </div>
     </div>
-<!-- -----about----- -->
+    <!-- -----about----- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/user2.png" alt="picture of user">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi inventore molestias molestiae dolores nulla sed! Fuga minus, voluptates debitis aliquam assumenda in. Sequi alias qui reiciendis nesciunt architecto totam, repudiandae suscipit fugit expedita cupiditate, amet esse enim nam. Vel, fugiat cum? Blanditiis eveniet, asperiores error consequatur laboriosam quos repellendus vel.</p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user2.png" alt="picture of user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+              inventore molestias molestiae dolores nulla sed! Fuga minus,
+              voluptates debitis aliquam assumenda in. Sequi alias qui
+              reiciendis nesciunt architecto totam, repudiandae suscipit fugit
+              expedita cupiditate, amet esse enim nam. Vel, fugiat cum?
+              Blanditiis eveniet, asperiores error consequatur laboriosam quos
+              repellendus vel.
+            </p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>HTML/CSS</span><br>Designing Basic Web Design</li>
-                            <li><span>FIGMA</span><br>Prototyping tools</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2018-2024</span><br>Saint Louis University</li>
-                            <li><span>2012-2018</span><br>University of Baguio</li>
-                            <li><span>2012</span><br>Northridge Academy Inc.</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2020-2022</span><br>METAT8 Esports</li>
-                            <li><span>2019-2020</span><br>Keyspoke</li>
-                            <li><span>2018</span><br>Sitel</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>HTML/CSS</span><br />Designing Basic Web Design</li>
+                <li><span>FIGMA</span><br />Prototyping tools</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2018-2024</span><br />Saint Louis University</li>
+                <li><span>2012-2018</span><br />University of Baguio</li>
+                <li><span>2012</span><br />Northridge Academy Inc.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2020-2022</span><br />METAT8 Esports</li>
+                <li><span>2019-2020</span><br />Keyspoke</li>
+                <li><span>2018</span><br />Sitel</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-<!-- -----Services----- -->
+    <!-- -----Services----- -->
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-user-pen"></i>
-                    <h2>Virtual Assistance</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-discord"></i>
-                    <h2>Discord Moderation</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <i class="fa-sharp fa-solid fa-hashtag"></i>
-                    <h2>Management</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet earum voluptates itaque explicabo magnam. Illum, inventore.</p>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-user-pen"></i>
+            <h2>Virtual Assistance</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              earum voluptates itaque explicabo magnam. Illum, inventore.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-discord"></i>
+            <h2>Discord Moderation</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              earum voluptates itaque explicabo magnam. Illum, inventore.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-hashtag"></i>
+            <h2>Management</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              earum voluptates itaque explicabo magnam. Illum, inventore.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- -----Portfolio----- -->
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Portfolio</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png" alt="image of first work">
-                    <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde corporis a quidem.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-2.png" alt="image of second work">
-                    <div class="layer">
-                        <h3>Music App</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde corporis a quidem.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png" alt="image of third work">
-                    <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde corporis a quidem.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="image of first work" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+                dicta eveniet odit unde corporis a quidem.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
-            <a href="#" class="btn">See more</a>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="image of second work" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+                dicta eveniet odit unde corporis a quidem.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="image of third work" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
+                dicta eveniet odit unde corporis a quidem.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
         </div>
+        <a href="#" class="btn">See more</a>
+      </div>
     </div>
     <!-- -----Contact----- -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p> <i class="fa-solid fa-paper-plane"></i>marksamuel.ku@gmail.com</p>
-                    <p><i class="fa-regular fa-mobile"></i> (+63) 939 603 8961</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
-                    </div>
-                    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
-                </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button class="submit btn btn2">Submit</button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>marksamuel.ku@gmail.com
+            </p>
+            <p><i class="fa-regular fa-mobile"></i> (+63) 939 603 8961</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
             </div>
+            <a href="images/my-cv.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="submit btn btn2">Submit</button>
+            </form>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Copyright © Mark Ku. </p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Mark Ku.</p>
+      </div>
     </div>
-
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
-        
-    }
-
-</script>
-
-<script>
-    var sidemenu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
-
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
-<!-- ----reference: https://www.youtube.com/watch?v=0YFrGy_mzjY---- -->
