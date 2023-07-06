@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mark Samuel Ku</title>
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
+        <link rel="stylesheet" href="/style.css" />
+        <script src="https://kit.fontawesome.com/62dfa86c8b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/#hero"><img src="/images/logo3.png " alt="personal logo" class="logo" /></a>
+                <ul id="sidemenu">
+                    <li><a href="/#hero">Home</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li>
+                        <a href="/#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="/#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="/#contact">Contact</a>
+                    </li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </header>
+        <div class="full-img" id="fullImgBox">
+            <img src="/images/mt8/1.png" alt="" id="fullImg" />
+            <span onclick="closeImg()"><i class="fas fa-solid fa-xmark"></i></span>
+        </div>
+        <div class="gallery-title"><h1>Infographics Gallery</h1></div>
+        <div class="img-gallery">
+            <img src="/images/misc/1.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/2.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/3.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/4.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/5.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/6.png" alt="" onclick="openImg(this.src)" />
+            <img src="/images/misc/7.png" alt="" onclick="openImg(this.src)" />
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>

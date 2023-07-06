@@ -11,9 +11,31 @@
     </head>
 
     <body>
-        <div id="header">
+        <!-- -----Nav Bar----- -->
+        <header>
+            <nav>
+                <a href="#hero"><img src="images/logo3.png " alt="personal logo" class="logo" /></a>
+                <ul id="sidemenu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </header>
+        <!-- -----Hero Section----- -->
+        <div id="hero">
             <div class="container">
-                <nav>
+                <!-- <nav>
                     <a href="#header"><img src="images/logo3.png " alt="personal logo" class="logo" /></a>
                     <ul id="sidemenu">
                         <li><a href="#header">Home</a></li>
@@ -30,7 +52,7 @@
                         <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
                     </ul>
                     <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
+                </nav> -->
                 <div class="header-text">
                     <p>Virtual Assistant | Discord Moderator</p>
                     <h1>Hi, My name is <span>Mark</span></h1>
@@ -134,7 +156,7 @@
                             and executive tasks to suit your needs. I manage schedules, documents, research, and more
                             with smooth operations and exceptional results.
                         </p>
-                        <a href="#">Learn More</a>
+                        <!-- <a href="#">Learn More</a> -->
                     </div>
                     <div>
                         <i class="fa-brands fa-discord"></i>
@@ -144,7 +166,7 @@
                             community, enforce guidelines, resolve conflicts, and create a safe and friendly atmosphere.
                             I communicate and solve problems effectively for a pleasant experience.
                         </p>
-                        <a href="#">Learn More</a>
+                        <!-- <a href="#">Learn More</a> -->
                     </div>
                     <div>
                         <i class="fa-sharp fa-solid fa-hashtag"></i>
@@ -154,7 +176,7 @@
                             post content on your social media platforms, increasing brand visibility and audience. Focus
                             on your business while I handle your social media needs.
                         </p>
-                        <a href="#">Learn More</a>
+                        <!-- <a href="#">Learn More</a> -->
                     </div>
                 </div>
             </div>
@@ -165,45 +187,49 @@
                 <h1 class="sub-title">Portfolio</h1>
                 <div class="work-list">
                     <div class="work">
-                        <img src="images/mmg.png" alt="image of first work" />
+                        <img src="images/tfm/7.png" alt="image of second work" />
                         <div class="layer">
-                            <h3>Social Media App</h3>
+                            <h3>The Financial Minds Posters</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde
-                                corporis a quidem.
+                                A series of posters designed for a financial literacy business aimed at young filipino
+                                adults. The posters use catchy slogans, vibrant colors and minimalist icons to convey
+                                the importance of saving, investing and budgeting money.
                             </p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="pages/tfm.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
-                        <img src="images/Blockchain Cover.png" alt="image of second work" />
+                        <img src="images/mmg.png" alt="image of first work" />
                         <div class="layer">
-                            <h3>Music App</h3>
+                            <h3>METAT8 Esports Posters</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde
-                                corporis a quidem.
+                                A collection of posters created for a Web3 esports team that dominated in Axie Infinity.
+                                The posters showcase the team’s logo, name, and team members as well as various
+                                gaming-related quotes and announcements.
                             </p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="pages/mt8.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                     <div class="work">
                         <img src="images/Personal Finance Infographicv3.png" alt="image of third work" />
                         <div class="layer">
-                            <h3>Online Shopping App</h3>
+                            <h3>Infographics</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dicta eveniet odit unde
-                                corporis a quidem.
+                                Informative and visually appealing infographics designed to simplify information and
+                                engage viewers. These infographics are carefully crafted to present data, statistics, or
+                                products in a visually compelling manner. By combining concise text, illustrations, and
+                                charts, they provide a quick and accessible way for audiences to grasp key information.
                             </p>
-                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="pages/infographics.html"><i class="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn">See more</a>
+                <a href="pages/portfolio.html" class="btn">See All</a>
             </div>
         </div>
         <!-- -----Contact----- -->
         <div id="contact">
-            <div class="container">
+            <div class="container contact-container">
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
