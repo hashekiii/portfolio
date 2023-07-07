@@ -31,6 +31,13 @@ function handleClickOutside(event) {
         closemenu();
     }
 }
+
+function outsideClickHandler(event) {
+    // Check if the clicked element is not inside the sidemenu
+    if (!sidemenu.contains(event.target)) {
+        closemenu();
+    }
+}
 hamburgerIcon.addEventListener("click", openmenu);
 closeIcon.addEventListener("click", closemenu);
 document.addEventListener("click", handleClickOutside);
@@ -47,12 +54,7 @@ function openImg(pic) {
 function closeImg() {
     fullImgBox.style.display = "none";
 }
-function outsideClickHandler(event) {
-    // Check if the clicked element is not inside the sidemenu
-    if (!sidemenu.contains(event.target)) {
-        closemenu();
-    }
-}
+
 // Linking Google Sheets to Contact Form
 const scriptURL =
     "https://script.google.com/macros/s/AKfycbxG_J36MEezXJGnxj7Y40amHl5ILCNOo9PDrizyGx3IYhVIosWrc_j6kH5LYM_cVZ7OLQ/exec";
